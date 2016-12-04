@@ -1,0 +1,188 @@
+
+body {
+	min-width: 520px;
+	background-color: #edf8fd;
+	font-family: "Segoe UI", sans-serif; 
+	font-size: 20px;
+}
+
+#page {
+	min-height: 1000px;
+	min-width: 100%;
+}
+
+#title{
+	font-size: 50px;
+	font-weight: bolder;
+	line-height: 60px;
+	padding:50px;
+	min-height: 50px;
+}
+
+#subtitle{
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 40px;
+	margin-left: 70px;
+	min-height: 50px;
+}
+
+
+#username {
+	
+	clear:both;
+	margin-left:90px;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+#email {
+	float:left;
+	margin-left:90px;
+	font-size: 16px;
+	line-height: 30px;
+}
+#change_email{
+	clear:both;
+	float:left;
+	background-color: #4CAF50;
+    color: white;
+    font-size: 12px;
+    padding: 5px 17px;
+    margin-left: 90px ;
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#enable_notifications{
+	clear:both;
+	float:left;
+	background-color: #4CAF50;
+    color: white;
+    font-size: 12px;
+    padding: 5px 17px;
+    margin-left: 0px ;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#change_password{
+	clear:both;
+	float:left;
+	background-color: #4CAF50;
+    color: white;
+    font-size: 12px;
+    padding: 5px 6px;
+    margin-left: 90px ;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	
+}
+
+.back{
+	clear:both;
+	float:left;
+	background-color: #4CAF50;
+    color: white;
+    font-size: 12px;
+    padding: 5px 6px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+#newPassword_wrapper{
+	display: none;
+	margin-top:30px;
+	margin-left:150px;
+	max-width: 300px;
+}
+
+#newEmail_wrapper{
+	display: none;
+	margin-top:30px;
+	margin-left:150px;
+	max-width: 300px;
+}
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#message_wrapper{
+	float:left;
+	clear:both;
+	margin-left: 90px;
+	margin-top: 30px;
+}
+#message_label{
+	float:left;
+	min-width:100%;
+	clear:both;
+	font-size: 16px;
+	line-height: 30px;
+	
+}
+
+input[type=radio] {
+   margin-top:10px;
+    max-width: 20px;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+label[for=Message_Service]{
+	float:left;
+	padding-right: 10px;
+	clear: none;
+	font-size: 16px;
+	line-height: 30px;
+
+	}
+
+#delete_account{
+	clear:both;
+	float:left;
+	background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 5px 17px;
+    margin-left: 90px ;
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	
+}

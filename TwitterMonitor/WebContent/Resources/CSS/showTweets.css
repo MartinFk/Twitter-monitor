@@ -1,0 +1,281 @@
+
+
+body {
+	min-width: 520px;
+	background-color: #edf8fd;
+	font: normal 14px/14px Helvetica, Arial, sans-serif;
+}
+
+nav{
+	position:fixed;
+	margin-top:10px;
+	z-index: 10;
+}
+#header {
+	min-width:100%;
+	position: fixed;
+	z-index: 10;
+}
+
+#page {
+	min-height: 1000px;
+	min-width: 100%;
+}
+
+.tweet_panel {
+	clear: left;
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 0px;
+	margin-right: auto;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	min-width: 100%;
+	
+}
+
+.tweet_data {
+	float: left;
+	background-color: white;
+	color: #4266b2;
+	padding-top: 20px;
+	padding-left: 10px;
+	min-height: 40px;
+	min-width: 99.5%;
+	
+}
+
+.tweet_author_name {
+	float: left;
+	color: black;
+	font-weight: bold;
+	margin-left: 5px;
+	padding-top: 20px;
+	min-height: 40px;
+}
+
+.tweet_place {
+	color: grey;
+}
+
+.tweet_author_pic {
+	float: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+	min-width: 30px;
+	min-height: 30px;
+	margin-right: 15px;
+	padding-top: 0px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+}
+
+.tweet_time {
+	float: right;
+	color: inherit;
+	margin-right: 15px;
+	padding-top: 20px;
+	padding-left: 10px;
+	min-height: 40px;
+}
+
+.tweet_pic {
+	float: left;
+	display: none;
+	min-height: 400px;
+	min-width: 101%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.tweet_text {
+	clear: left;
+	font-size: 16px;
+	float: left;
+	min-width: 95%;
+	
+	min-height: 50px;
+	padding-left: 30px;
+	line-height: 25px;
+	background-color: white;
+	padding: 20px;
+	
+}
+
+.tweet_rating {
+	float: right;
+	padding-top: 20px;
+	padding-right: 10px;
+	min-height: 40px;
+}
+
+.line {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	min-height: 1px;
+	min-width: 300px;
+	background-color: #dcdcdc;
+}
+
+/* #search_button { */
+/* 	float: left; */
+/* 	margin-left: 50px; */
+/* 	min-width: 30px; */
+/* 	min-height: 30px; */
+/* 	padding-left: 30px; */
+/* 	padding-top: 40px; */
+/* 	width: 100px; */
+/*   	height: 50px; */
+/* 	background-repeat: no-repeat; */
+/* 	background-size: contain; */
+	
+/* } */
+
+
+#sidebar {
+	clear:both;
+	float: left;
+	margin-left: 50px;
+	padding-left: 15px;
+	padding-top: 40px;
+	margin-top: 150px;
+	border-color: gray;
+	border-left-style: solid;
+	border-left-width: thin;
+	min-height: 400px;
+	min-width: 24%;
+	max-width: 100%;
+}
+wrapper{
+	clear: both;
+}
+#username {
+	font-size: 25px;
+}
+
+#welcome_text {
+	padding: 20px;
+	min-height: 100px;
+}
+
+label {
+	float: left;
+	min-width: 100%;
+	color: lightgray;
+}
+
+input[type=search], select {
+	float: left;
+	width: 80%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    clear:both;
+}
+
+input[type=button] {
+    width:40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 2px 3px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+input[type=button]:hover {
+    background-color: #45a049;
+}
+
+input[id=textfield_benutzer],select{
+	float:left;
+	width: 200px;
+   	padding: 5px 5px;
+    margin-left:5px;
+    margin-top:20px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;	
+}
+
+
+
+label[for=login_password]{
+	float:left;
+	color:white;
+	clear:left;
+	padding:10px;
+	margin-top:8px;
+
+}
+
+
+span {
+	color: red;
+}
+.tweet_prio{
+	display:none;
+}
+@media screen and (min-width: 1340px) {
+
+	#sidebar {
+		position:fixed;
+		right: 0;
+		float: right;
+		min-width: 20%;
+		max-width: 20%;
+		clear:none;
+	}
+	#tweet_panel {
+		min-width: 60%;
+	}
+}
+
+@media screen and (min-width: 700px) {
+
+	
+	#tweet_panel {
+		min-width: 530px;
+		max-width: 530px;
+		margin-left: 100px;
+	}
+	
+	.tweet_data {
+		min-width: 530px;
+		max-width: 530px;
+		box-shadow: 10px 12px 12px 0px rgba(0, 0, 0, 0.50);
+		border-top-left-radius: 28px;
+		border-top-right-radius: 28px;
+	}
+	.tweet_pic {
+		min-width: 540px;
+		max-width: 540px;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		box-shadow: 10px 12px 12px 0px rgba(0, 0, 0, 0.50);
+	}
+	.tweet_text {
+		min-width: 500px;
+		max-width: 500px;
+		box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.50);
+		border-bottom-left-radius: 28px;
+	}
+
+}
